@@ -11,6 +11,16 @@ class TaskListViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var emptyStateLabel: UILabel!
+    
+    // Create a label for your name
+    let nameLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Lou Salvant - Z23637852"
+        label.textAlignment = .center
+        label.font = UIFont.systemFont(ofSize: 14)
+        label.textColor = .gray
+        return label
+    }()
 
     var tasks = [Task]() {
         didSet {
@@ -30,6 +40,9 @@ class TaskListViewController: UIViewController {
         // Populate mocked data
         // Comment out this line if you want the app to load without any existing tasks.
         tasks = Task.mockedTasks
+        
+        // Configure and add the name label to the view
+        setupNameLabel()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -62,13 +75,28 @@ class TaskListViewController: UIViewController {
                 // Get the index path for the current selected table view row.
                let selectedIndexPath = tableView.indexPathForSelectedRow {
 
-                // Get the task associated with the slected index path
+                // Get the task associated with the selected index path
                 let task = tasks[selectedIndexPath.row]
 
                 // Set the selected task on the detail view controller.
                 detailViewController.task = task
             }
         }
+    }
+
+    private func setupNameLabel() {
+        // Add the label to the view
+        view.addSubview(nameLabel)
+        
+        // Disable auto-resizing mask
+        nameLabel.translatesAutoresizingMaskIntoConstraints = false
+        
+        // Add constraints to position the label at the bottom
+        NSLayoutConstraint.activate([
+            nameLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            nameLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            nameLabel.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -10)
+        ])
     }
 }
 
