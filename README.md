@@ -27,7 +27,7 @@ The following **required** functionality is completed:
 
 **Adding New Task Demonstration**
 
-![GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM25mM2V1ZXRuZjU3M2g3ZWJlaTJwYWVuZXR0M3hvcGpremcxcXgxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cDVgAvdwSJrtuyGzIc/giphy.gif)
+![GIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazh2MTdnZDFub2EyeHAzNmZkNm41ZXNpYWN6YnBoYmExZWt6MDF6dyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ibK4Rua6MiqVf8pGG8/giphy.gif)
 
 **Photo View Controller**
 
