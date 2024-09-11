@@ -20,7 +20,19 @@ The following **required** functionality is completed:
 
 ## Video Walkthrough
 
+**Demonstration**
+
+
 ![GIF](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHBxbGw4b2tqY21lNHN4amF0aTJ0YTlpbzEwNHd2bjg2bjdjN2k2NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x67XG8f28EDDtnlYe1/giphy.gif)
+
+**Adding New Task Demonstration**
+
+![GIF](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExM25mM2V1ZXRuZjU3M2g3ZWJlaTJwYWVuZXR0M3hvcGpremcxcXgxeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cDVgAvdwSJrtuyGzIc/giphy.gif)
+
+**Photo View Controller**
+
+![Image](https://i.imgur.com/HDvcl3J.jpeg)
+
 
 ## Notes
 
